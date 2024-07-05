@@ -1,10 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8">
+    <title>CV Ilnur</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-</body>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container-header">
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li class="nav-list-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-list-item"><a href="#about-me" class="nav-link">About me</a></li>
+            <li class="nav-list-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-list-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-list-item"><a href="#experience" class="nav-link">Experience</a></li>
+            <li class="nav-list-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-list-item"><a href="#languages" class="nav-link">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-content">
+      <div class="main-container">
+        <section class="section-profile" id="profile">
+          <img src="img/myphoto.jpg" class="profile-photo" width="200" height="200" alt="my-photo">
+          <div class="profile-container">
+            <h1 class="section-profile-title">Ilnur Fatkullin</h1>
+            <h3 class="profession-title">Junior Developer</h3>
+          </div>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              Email: <a href="mailto:fatkhiln@gmail.com" title="email">fatkhiln@gmail.com</a>
+            </li>
+            <li class="section-item">
+              GitHub: <a href="https://github.com/FatkIlnur" title="email">FatkIlnur</a>
+            </li>
+            <li class="section-item">
+              Phone: <a href="tel:89060491941" title="phone">89060491941</a>
+            </li>
+            <li class="section-item">
+              Discord: <a href="https://discord.com" title="discord">ilnur_78813</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="about-me">
+          <h2 class="section-title">About me</h2>
+          <p>I am 31 years old, I have no experience as a developer, but I have a clear goal to master this craft. In my arsenal perseverance and the desire to study every day, sports discipline will help me with this. I have been playing volleyball for 15 years and still enjoy it. I hope this course will help me in my quest to become a developer.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item">HTML5/CSS3</li>
+            <li class="section-item">JavaScript bacis skills</li>
+            <li class="section-item">Git, GitHub</li>
+            <li class="section-item">VS Code</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+<pre class="code-example"><code>Function normalizeUrl = (url) {
+  let urlType;
+  if (url.startsWith('https://')) {
+    urlType = url;
+  } else {
+      urlType = `https://${url}`;
+    }
+  return urlType;
+};</code></pre>
+        </section>
+        <section class="section" id="experience">
+          <h2 class="section-title">Experience</h2>
+          <ul class="section-list">
+            <li class="section-item">Worked as an accountant</li>
+            <li class="section-item">I am currently working as an addressing specialist</li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul class="section-list">
+            <li class="section-item">The National University of Science and Technology MISIS, Managment</li>
+            <li class="section-item">Courses
+              <ul class="courses-list">
+                <li class="courses-item">Hexket</li>
+                <li class="courses-item">HTML Academy</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul class="section-list">
+            <li class="section-item">Russian native</li>
+            <li class="section-item">English A2 (almost B1)</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div>2024 <a href="https://github.com/FatkIlnur" class="github-link">FatkIlnur</a></div>
+        <a href="https://rs.school/js/" class="rss"><img src="img/rss.svg" width="150" height="150" alt="rss-link"></a>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Bona Nova SC", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #163152;
+    background-color: #FFF5EE;
+}
+
+.main-header {
+    background-color: #FAEBD7;
+}
+
+.container-header {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-height: 70px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-list-item {
+    padding-top: 25px;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #163152;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-content {
+    max-width: 1440px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 55px;
+}
+
+.section-profile {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+}
+
+.section-profile-title {
+    font-family: Anton SC, sans-serif;
+    font-size: 32px;
+    line-height: 60px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-family: Anton SC, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #00C6BD;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.section-list {
+    margin: 0;
+    padding: 0;
+}
+
+.section-item a {
+    text-decoration: none;
+    color: #163152;
+}
+
+.main-footer {
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 12px;
+    min-height: 50px;
+    background-color: #FAEBD7;
+}
+
+.footer-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAEBD7;
+}
+
+.github-link {
+    text-decoration: none;
+    color: #163152;
+    line-height: 45px;
+  }
