@@ -11,3 +11,28 @@ I am 31 years old, I have no experience as a developer, but I have a clear goal 
 * JavaScript bacis skills
 * Git, GitHub
 * VS Code
+## Code Examples
+```
+Function normalizeUrl = (url) {
+  let urlType;
+  if (url.startsWith('https://')) {
+    urlType = url;
+  } else {
+    urlType = `https://${url}`;
+  }
+
+  return urlType;
+};
+```
+## Expirience
+* Worked as an accountant
+* I am currently working as an addressing specialist
+* RS Schools «Markdown & Git» (in progress)
+## Education
+* The National University of Science and Technology MISIS, Managment
+* Courses:
+  + Hexlet
+  + HTML Academy
+## Languages
+* Russian native
+* English A2 (almost B1)
